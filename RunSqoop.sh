@@ -1,5 +1,5 @@
 #!/bin/bash
-nowDT=$( date +"%F:%H%:%M:%S" )
+nowDT=$( date +"%F:%H:%M:%S" )
 sqpDir=/home/cloudera/sqoop
 if [ $# -ne 1 ]; then  
  echo "$nowDT : Error -  RunSqoop expects only one input argument...."
