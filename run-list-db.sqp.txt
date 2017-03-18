@@ -1,0 +1,8 @@
+Step 1: change the permission of the list-db.sqp to 744
+chmod 744 list-db.sqp
+
+Step 2: Re direct the warnings to log file with date time, supress the lines due to Accumulo warning lines
+. ./list-db.sqp 2> list-db-$(date +"%F:%H:%M:%S").log | grep -v 'Accumulo'
+
+
+
