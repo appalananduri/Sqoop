@@ -1,3 +1,5 @@
+Remarks: List Database command is useful more in multi tentenate database system
+
 Step 1: change the permission of the list-db.sqp to 744
 chmod 744 list-db.sqp
 
