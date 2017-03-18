@@ -1,0 +1,4 @@
+In order to import data from various database like Oracle, Sybase, SQL server, and others, need to copy respective jdbs drivers or 
+create softlink into sqoop directory "/usr/lib/sqoop/lib" directory or any other installation directory as per yor organization 
+standards. 
+
