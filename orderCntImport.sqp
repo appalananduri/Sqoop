@@ -1,0 +1,7 @@
+sqoop import \
+--connect "jdbc:mysql://quickstart.cloudera:3306/retail_db" \
+--username retail_dba \
+--password cloudera \
+--query "select count(1) from orders where \$CONDITIONS " \
+--target-dir /tmp/working/order \
+-m 1
