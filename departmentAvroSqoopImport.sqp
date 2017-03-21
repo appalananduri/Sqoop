@@ -1,0 +1,6 @@
+sqoop import --connect "jdbc:mysql://quickstart.cloudera:3306/retail_db" \
+--username retail_dba \
+--password cloudera \
+--table departments \
+--target-dir /tmp/working/departments_avro \
+--as-avrodatafile
